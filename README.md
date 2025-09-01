@@ -1,0 +1,1 @@
+This repository contains all projects to create a game engine in C++.
