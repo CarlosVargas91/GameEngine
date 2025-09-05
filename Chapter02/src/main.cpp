@@ -14,6 +14,9 @@ int main() {
     }
     else{
         std::cout << "Hola, Motor Grafico en C++ funcionando con GCC + CMake + Cursor!" << std::endl;
+        game->RunLoop();
     }
+
+    game->Shutdown();
     return 0;
 }

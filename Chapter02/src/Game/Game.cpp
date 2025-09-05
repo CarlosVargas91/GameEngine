@@ -119,6 +119,12 @@ void Game::GenerateOutput()
 
     // Clear back buffer
 	SDL_RenderClear(mRenderer);
+
+	// Draw all sprite components
+	for (auto sprite : mSprites)
+	{
+		sprite->Draw(mRenderer);
+	}
     
     // Swap front buffer and back buffer
 	SDL_RenderPresent(mRenderer);

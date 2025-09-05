@@ -1,4 +1,4 @@
-set(CHAPTER_NAME Pacman)
+set(CHAPTER_NAME 2dRenderer)
 
 # Crear el ejecutable
 add_executable(${CHAPTER_NAME} 
@@ -12,6 +12,7 @@ target_include_directories(${CHAPTER_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Actors
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Game
     ${CMAKE_CURRENT_SOURCE_DIR}/src/Math
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/SpriteComponents
 )
 
 # Linkear librerías directamente
